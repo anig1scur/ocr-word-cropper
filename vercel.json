@@ -5,7 +5,7 @@
       "src": "api/process.py",
       "use": "@vercel/python",
       "config": {
-        "maxLambdaSize": "1024mb"
+        "maxLambdaSize": "2048mb"
       }
     }
   ],
