@@ -15,7 +15,7 @@ This project is an image processing tool based on EasyOCR, designed to recognize
 ### Usage
 
 1. Install dependencies: `pip install -r requirements.txt`
-2. Config the target words in `config.py`
+2. Config the target words in `config.py` and put your images in `images` folder
 3. Run!
 
 ### Todo

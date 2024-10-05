@@ -10,7 +10,7 @@ def ocr_and_crop_core(image, target_words, reader):
     cropped_items = []
 
     for idx, (bbox, text, prob) in enumerate(result):
-        if any(target_word in text for target_word in target_words):
+        if not target_words or any(target_word in text for target_word in target_words):
             top_left, _, bottom_right, _ = bbox
             left, top = map(int, top_left)
             right, bottom = map(int, bottom_right)
