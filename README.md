@@ -2,9 +2,15 @@
 
 This project is an image processing tool based on EasyOCR, designed to recognize specific text in images and crop the corresponding areas.
 
+## concat
+
+<img src="./output/res_main.png" />
+
+## crop
+
 <div align="center" style="display: flex;gap:15px">
     <img src="./images/milk.jpg" width="45%"  />
-    <img src="./output/milk/res.png" width="50%"  />
+    <img src="./output/milk/res_crop.png" width="50%"  />
 </div>
 
 ### Dependencies
